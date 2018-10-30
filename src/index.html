@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Nucleus</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+</head>
+<body>
+  <button id="close" onclick="closeWindow()"><i class="fa fa-times"></i></button>
+  <app-root>Loading...</app-root>
+</body>
+
+<script>
+  const remote = require('electron').remote;
+  function closeWindow() {
+    let w = remote.getCurrentWindow();
+    w.close();
+  }
+</script>
+
+</html>
