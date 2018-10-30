@@ -19,7 +19,6 @@
   },
   "private": true,
   "dependencies": {
-    "@angular-devkit/core": "^0.5.0",
     "@angular/animations": "^5.2.0",
     "@angular/cli": "~1.7.2",
     "@angular/common": "^5.2.0",
@@ -44,7 +43,6 @@
     "zone.js": "^0.8.4"
   },
   "devDependencies": {
-    "@angular-devkit/core": "^0.5.0",
     "@angular/animations": "^5.2.0",
     "@angular/cli": "~1.7.2",
     "@angular/common": "^5.2.0",

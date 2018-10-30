@@ -9,11 +9,13 @@ import { AppComponent } from './app.component';
 import {appRoutes} from './routes';
 import {RouterModule} from '@angular/router';
 import {LandingComponent} from './landing/landing.component';
+import { GameComponent } from './game/game.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LandingComponent
+    LandingComponent,
+    GameComponent
   ],
   imports: [
     RouterModule.forRoot(appRoutes, { useHash: true }),
